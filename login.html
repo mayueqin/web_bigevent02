@@ -23,7 +23,7 @@
         <!-- 登录的div -->
         <div class="login-box">
             <!-- 登录的表单 -->
-            <form class="layui-form" action="">
+            <form class="layui-form" action="" id="form_login">
                 <!-- 用户名 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-username"></i>
@@ -47,7 +47,7 @@
         <!-- 注册的div -->
         <div class="reg-box">
             <!-- 注册的表单 -->
-            <form class="layui-form" action="">
+            <form class="layui-form" action="" id="form_reg">
                 <!-- 用户名 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-username"></i>
@@ -74,10 +74,12 @@
             </form>
         </div>
     </div>
-    <script src="./assets/lib/jquery.js"></script>
-    <script src="/assets/js/login.js"></script>
     <!-- 实现登录表单的验证需要导入layui.all.js -->
     <script src="/assets/lib/layui/layui.all.js"></script>
+    <script src="./assets/lib/jquery.js"></script>
+    <script src="./assets/js/baseAPI.js"></script>
+    <script src="/assets/js/login.js"></script>
+
 </body>
 
 </html>
