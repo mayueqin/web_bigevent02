@@ -22,7 +22,7 @@ $(function() {
         })
         //定义弹出层提示
     var layer = layui.layer;
-    监听注册表单的提交事件
+    //监听注册表单的提交事件
     $('#form_reg').on('submit', function(e) {
             e.preventDefault();
             var data = {
