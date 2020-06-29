@@ -89,7 +89,7 @@ $(function() {
         })
     })
 
-    //定义函数，发送请求实现发布新文章
+    //定义函数，发送请求实现发布更新的文章
     function publishArticle(fd) {
 
         $.ajax({
