@@ -1,6 +1,7 @@
 //*******************更新修改后的文章的功能实现代码*******************//
 $(function() {
-
+    // 初始化富文本编辑器
+    // initEditor()
     var layer = layui.layer
     var form = layui.form
     initCate()
